@@ -24,3 +24,42 @@ The goal is to assist in early detection using image-based classification.
 - **Link:** https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
 
 ### Dataset Structure
+
+Training/
+├── glioma/
+├── meningioma/
+├── pituitary/
+└── no_tumor/
+
+Testing/
+├── glioma/
+├── meningioma/
+├── pituitary/
+└── no_tumor/
+
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- OpenCV
+- NumPy
+- Matplotlib
+- TensorFlow / Keras (for model building)
+
+---
+
+## ⚙️ Project Workflow
+
+1. Dataset loading and preprocessing
+2. Image resizing and normalization
+3. Label encoding
+4. Model building (CNN)
+5. Training and evaluation
+6. Result analysis
+
+
+
+
